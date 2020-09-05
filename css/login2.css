@@ -1,0 +1,142 @@
+#all {
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(40px, auto);
+  grid-gap: 1em;
+}
+#all > div {
+  padding: 1em;
+  background: #282828;
+}
+#all > #form_all {
+  grid-column: 2/3;
+  grid-row: 1/5;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+}
+h1 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+h2 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+
+#signup {
+  display: none;
+}
+.register {
+  background: transparent;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  color: #df293a;
+  outline: none;
+  border: transparent;
+  font-weight: bold;
+}
+.register:hover {
+  cursor: pointer;
+}
+
+.input {
+  width: 95%;
+  height: 35px;
+  line-height: 35px;
+  outline: none;
+  border: transparent;
+  font-size: 16px;
+  padding: 3px;
+  font-family: "Raleway", sans-serif;
+  margin: 5px;
+}
+.input_btn {
+  width: 97%;
+  margin-left: 5px;
+  height: 40px;
+  line-height: 40px;
+  outline: none;
+  border: transparent;
+  background-color: #df293a;
+  color: white;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
+.input_btn:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  #all {
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(40px, auto);
+    grid-gap: 1em;
+  }
+  #all > div {
+    padding: 1em;
+    background: #282828;
+  }
+  #all > #form_all {
+    grid-column: 1/4;
+    grid-row: 1/5;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+  }
+  h1 {
+    color: white;
+    font-family: "Raleway", sans-serif;
+  }
+  h2 {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+  }
+
+  #signup {
+    display: none;
+  }
+  .register {
+    background: transparent;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    color: #df293a;
+    outline: none;
+    border: transparent;
+    font-weight: bold;
+  }
+  .register:hover {
+    cursor: pointer;
+  }
+
+  .input {
+    width: 95%;
+    height: 35px;
+    line-height: 35px;
+    outline: none;
+    border: transparent;
+    font-size: 16px;
+    padding: 3px;
+    font-family: "Raleway", sans-serif;
+    margin: 5px;
+  }
+  .input_btn {
+    width: 97%;
+    margin-left: 5px;
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+    border: transparent;
+    background-color: #df293a;
+    color: white;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+  }
+}

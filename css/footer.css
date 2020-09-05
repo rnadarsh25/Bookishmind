@@ -1,0 +1,13 @@
+#footer{
+    grid-column: 1/4;
+    text-align: center;
+    padding: 1em;
+    background-color: #282828;
+    border-top: 1px solid white;
+}
+#footer >h1{
+    font-size: 14px;
+    color: white;
+    margin: 2px;
+    font-family: 'Raleway', sans-serif;
+}
